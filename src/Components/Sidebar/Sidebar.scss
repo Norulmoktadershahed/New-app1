@@ -1,0 +1,30 @@
+.sidebar{
+    flex: 1;
+    border-right: 0.5px solid lightgray;
+    min-height: 100vh;
+
+    .top{
+        
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img{
+      
+        height: 40px;
+        width: 150px;
+    }
+    .hr{
+        border: 0.5px solid lightgrey;
+    }
+    .center{
+        padding-left: 10px;
+
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    }
